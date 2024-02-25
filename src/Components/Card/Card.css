@@ -1,0 +1,52 @@
+.card {
+  width: 300px;
+  max-height: 350px;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.card img {
+  margin: 20px auto;
+}
+.dis-text {
+  text-align: start;
+  gap: 10px;
+}
+.dis-text span {
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: rgba(0, 0, 255, 0.1);
+  color: #074786;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+.productName {
+  margin: 0.6rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: start;
+}
+.card > div {
+  text-align: start;
+  margin: 0.6rem 0;
+}
+.coastprice {
+  font-size: 1.2rem;
+  color: #5c6874;
+}
+.mrp {
+  font-size: 0.8rem;
+  color: #9fa9b3;
+}
+.discount {
+  font-size: 0.8rem;
+  color: #ef4c5d;
+}

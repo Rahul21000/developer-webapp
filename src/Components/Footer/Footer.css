@@ -1,0 +1,51 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 80px;
+    padding: 20px 10px;
+    background-color:#000;
+    color: #fff;
+    list-style-type: none;
+    
+}
+ul{
+    list-style-type: none;
+}
+.footer-menu>h4{
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 2rem;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.footer-menu ul li{
+font-size: 0.8rem;
+font-weight: 400;
+line-height: 2rem;
+letter-spacing: 0em;
+text-align: left;
+cursor: pointer;
+
+}
+.last-menu{
+    align-self: center;
+}
+.last-menu span{
+   
+    font-size: 0.8rem;
+}
+.more{
+display: flex;
+}
+@media (max-width:620px){
+    .footer{
+        gap: 40px;
+    }
+}
+@media (max-width:320px){
+    .footer{
+        gap: 20px;
+    }
+}

@@ -1,0 +1,133 @@
+.cardcontent {
+  margin-bottom: 10px;
+  /* padding: 10px 20px; */
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 0 5px;
+  position: relative;
+  background: #ffffff;
+}
+.icon-wrapper {
+  position: absolute;
+  left: -30px;
+  top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.badge-btn{
+  color: #ffffff;
+  background-color: rgb(255, 145, 0);
+  padding: 5px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.number {
+  background: #ffffff;
+  border-radius: 50%;
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  
+}
+.productimg {
+  text-align: center;
+  align-self: center;
+}
+.productimg img {
+  /* object-fit: cover; */
+  align-items: center;
+  width: 60%;
+  height: 60%;
+}
+
+.cardcontent article {
+  max-width: 45%;
+}
+.cardcontent > a {
+  /* text-align: center; */
+  color: #1b88f4;
+}
+article > p {
+  margin: 10px 0px;
+}
+.rating-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+}
+.rating-lables{
+  width:120px;
+  text-align: center;
+  background: #f3f9ff;
+  border-radius: 0px 0px 12px 12px;
+  padding: 10px;
+ 
+ 
+
+}
+.rating1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #074786;
+  
+}
+.rating2 {
+  color: #074786;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.desc {
+  padding-left: 50px;
+}
+.desc+p,.desc1+p  {
+
+ color: blue;
+}
+.more{
+display: flex;
+}
+.unordered-list{
+  background: #FFF4ED;
+  padding: 10px;
+  border-radius: 12px;
+}
+.desc1 section{
+margin: 10px 0;
+}
+h4>section{
+  margin-left: 40px;
+}
+.unorder-list{
+  padding: 10px;
+  background-color: #ffffff;
+  padding: 1px 6px;
+  border-radius: 6px;
+  color: #1B88F4;
+
+}
+.feature{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+
+@media (max-width: 630px) {
+  .cardcontent {
+    flex-direction: column;
+  }
+  .cardcontent article {
+    max-width: 100%;
+  }
+  .badge-btn{
+   font-size: 0.8rem;
+  }
+}

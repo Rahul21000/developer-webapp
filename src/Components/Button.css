@@ -1,0 +1,13 @@
+button{
+    background: "#1B88F4";
+    padding:10px 60px;
+    border-radius:12px;
+    text-align:center;
+    border:none;
+    background: #1B88F4;
+    color: #fff;
+}
+button:hover{
+transform: scale(0.9);
+cursor: pointer;
+}
